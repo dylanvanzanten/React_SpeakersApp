@@ -1,0 +1,17 @@
+.header__container {
+  background-color: $color-primary;
+  padding: $global-spacing 0;
+}
+
+.header__content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header__logo {
+  svg path,
+  svg circle {
+    fill: $color-white;
+  }
+}
