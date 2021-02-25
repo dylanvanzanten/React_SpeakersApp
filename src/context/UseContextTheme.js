@@ -1,11 +1,13 @@
 import React from 'react'
 
-const themes = {
+export const themes = {
 	light: {
-		background: "#FFFFFFF"
+		background: "#FFFFFFF",
+		color: "#000000"
 	},
 	dark: {
-		background: "#000000"
+		background: "#000000",
+		color: "#FFFFFFF"
 	}
 };
 

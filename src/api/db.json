@@ -1,0 +1,42 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Bill Gates",
+      "company": "Microsoft",
+      "email": "typicode",
+      "website": "https://google.com"
+    },
+    {
+      "id": 2,
+      "name": "Jeff Bezos",
+      "company": "Amazon",
+      "email": "typicode",
+      "website": "https://google.com"
+    },
+    {
+      "id": 2,
+      "name": "Elon Musk",
+      "company": "Tesla",
+      "email": "typicode",
+      "website": "https://google.com"
+    }
+  ],
+  "talks": [
+    {
+      "id": 1,
+      "Title": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 1,
+      "Title": "some comment two",
+      "postId": 2
+    },
+    {
+      "id": 3,
+      "Title": "some comment three",
+      "postId": 3
+    }
+  ]
+}

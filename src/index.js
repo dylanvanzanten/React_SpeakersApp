@@ -4,9 +4,13 @@ import './sass/index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import ThemeContext from "./context/UseContextTheme";
+
 ReactDOM.render(
   <React.StrictMode>
+		{/* <ThemeContext.Provider> */}
     <App />
+		{/* </ThemeContext.Provider> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,12 +1,11 @@
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import { ReactComponent as Logo } from "../../logo.svg";
-
 import Navigation from "../navigation/Navigation";
+import Button from "../base/Button";
 
 const Header = () => {
   return (
-    <Router>
       <header className="c-header">
         <div className="header__container">
           <div className="o-container">
@@ -15,11 +14,11 @@ const Header = () => {
                 <Logo />
               </Link>
               <Navigation />
+							<Button />
             </div>
           </div>
         </div>
       </header>
-    </Router>
   );
 };
 
