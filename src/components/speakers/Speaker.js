@@ -1,18 +1,21 @@
+import React, { useState } from "react";
 
-import data from "../../api/db.json"
+const Speaker = () => {
+  const [user, setBooks] = useState(null);
 
-const Speaker = (user) => {
+  const fetchData = async () => {
+    const response = await this.get("http://localhost:4000");
+
+    setBooks(response.data);
+  };
 
   return (
     <>
-      <div>{user.name}</div>
       <div>
-        <img alt={user.name} src={user.avatar} />
-      </div>
-      <div>{user.email}</div>
+
+	  </div>
     </>
   );
 };
-
 
 export default Speaker;
