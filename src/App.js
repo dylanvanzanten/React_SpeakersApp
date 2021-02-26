@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { useContext } from "react";
 
 import About from "./pages/About";
 import Home from "./pages/Home";
@@ -11,9 +10,7 @@ import Footer from "./components/footer/Footer";
 function App() {
   return (
     <Router>
-      <>
         <Header />
-      </>
       <Switch>
         <Route path="/speakers">
           <Speakers />
